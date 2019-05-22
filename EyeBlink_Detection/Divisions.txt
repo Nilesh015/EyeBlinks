@@ -1,0 +1,27 @@
+NOTES:
+
+Pairs:
+(1,2)
+(3,4)
+(8,9)
+(10,11)
+
+trainEAR.csv:-
+
+Training Set:
+1
+2
+3
+4
+8
+10
+
+Test Set:
+9
+11
+
+
+trainEAR_FULL.csv --> trained on all 1-11
+
+
+
