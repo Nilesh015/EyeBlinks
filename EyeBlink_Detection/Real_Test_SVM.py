@@ -63,7 +63,7 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
 # load the model from disk
-filename = './Models/SVM_modelEAR.sav'
+filename = './Models/SVM_modelBZ.sav'
 lin_svc = pickle.load(open(filename, 'rb'))
 
 y_temp = []

@@ -20,7 +20,7 @@ import pickle
 
 #iris = datasets.load_iris()
 
-data = pd.read_csv('./DataSets/trainEAR.csv',header = 0)
+data = pd.read_csv('./DataSets/trainEARBZ.csv',header = 0)
 data = data.dropna()
 
 
@@ -84,5 +84,5 @@ print(confusion_matrix)
 from sklearn.metrics import classification_report
 print(classification_report(y_test, y_pred))
 
-#filename = './Models/SVM_modelEAR.sav'
+#filename = './Models/SVM_modelBZ.sav'
 #pickle.dump(rbf_svc, open(filename, 'wb'))
